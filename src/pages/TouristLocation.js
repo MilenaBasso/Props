@@ -7,7 +7,7 @@ import Description from "../components/DescriptionComponent";
 export default function TLComponent() {
   return (
     <View styles={styles.container}>
-      <Name name={styles.name} nome="Civita di Bagnoregi" />
+      <Name name={styles.name} nome="Civita di Bagnoregio" />
       <Imagem />
       <Description
         description={styles.description}

@@ -11,28 +11,24 @@ export const styles = StyleSheet.create({
 
   name: {
     fontSize: 30,
+    textAlign: "center",
   },
 
   adress: {
     fontSize: 25,
     color: "#add8e6",
+    textAlign: "center",
   },
 
   description: {
     fontSize: 20,
     color: "#a9a9a9",
+    textAlign: "center",
   },
 
   imgmain: {
-    width: 1000,
-    height: 1000,
-    resizeMode: "cover",
-    alignContent: "center",
-    justifyContent: "center",
-  },
-
-  imgsmall: {
-    width: 400,
-    height: 400,
+    width: 500,
+    height: 500,
+    alignSelf: "center",
   },
 });

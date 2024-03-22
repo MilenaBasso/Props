@@ -1,4 +1,4 @@
-import { Image, View } from "react-native-elements";
+import { Image, View } from "react-native";
 import { styles } from "../styles/StyleSheet";
 
 export default function Imagem() {
@@ -12,11 +12,9 @@ export default function Imagem() {
   };
 
   return (
-    <View styles={sty}>
-      <Image source={mainimagem} />
-      <Image source={insideimagem} />
+    <View style={styles.container}>
+      <Image source={mainimagem} style={styles.imgmain} />
+      <Image source={insideimagem} style={styles.imgsmall} />
     </View>
   );
 }
-
-// style={styles.imagepage}

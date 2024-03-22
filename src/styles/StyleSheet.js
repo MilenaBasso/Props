@@ -5,6 +5,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignContent: "center",
+    alignItems: "center",
     backgroundColor: "#fff",
   },
 
@@ -12,7 +13,7 @@ export const styles = StyleSheet.create({
     fontSize: 30,
   },
 
-  location: {
+  adress: {
     fontSize: 25,
     color: "#add8e6",
   },
@@ -22,8 +23,16 @@ export const styles = StyleSheet.create({
     color: "#a9a9a9",
   },
 
-  img: {
-    width: 500,
-    height: 500,
+  imgmain: {
+    width: 1000,
+    height: 1000,
+    resizeMode: "cover",
+    alignContent: "center",
+    justifyContent: "center",
+  },
+
+  imgsmall: {
+    width: 400,
+    height: 400,
   },
 });

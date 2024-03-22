@@ -3,45 +3,27 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
+    justifyContent: "center",
+    alignContent: "center",
     backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-    padding: 50,
   },
 
-  //   estilização da pg home
-  home: {
-    flex: 1,
-    width: "100%",
-    height: "100%",
-    resizeMode: "cover",
-    justifyContent: "center",
-    alignItems: "center",
-    //* padding: 500,*//
+  name: {
+    fontSize: 30,
   },
 
-  // estilo do input
-  inputname: {
-    backgroundColor: "white",
-    width: 300,
-    fontSize: 15,
-    marginTop: 100,
-    textAlign: "center",
+  location: {
+    fontSize: 25,
+    color: "#add8e6",
   },
 
-  // estilo de todos os botoẽs
-  btn: {
-    justifyContent: "center",
-    alignItems: "center",
+  description: {
+    fontSize: 20,
+    color: "#a9a9a9",
   },
 
-  //   estilo das imagens dos bntcomponent
-  botimg: {
-    marginTop: 46,
-  },
-
-  // estilização dos textos no app
-  texts: {
-    fontSize: 36,
+  img: {
+    width: 500,
+    height: 500,
   },
 });
